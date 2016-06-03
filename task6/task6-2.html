@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="renderer" content="webkit"/>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/task6-2.css" />
+	
+</head>
+<body>
+	<div class="wrap">
+		
+	    <div class="top-bar">
+		    <a href="http://amumustyle.github.io/Coatard/task6/task6-1.html" class="fl"><img src="img/menus1.png"></a>
+		    <a href="#" class="fr"><img src="img/close.png"></a>
+		    <p>投票</p>
+		</div>
+        <div class="player">
+			    <button class="fr" onclick="play()">
+		            <audio src="mp3/财富自由.mp3" id="music" preload="auto" controls="controls" hidden="hidden"></audio>
+                </button>
+                <p>发言讨论结束，大家请投票</p>
+		</div>
+        <div class="triangle"></div>
+        <div class="main">
+            <h1>点击得票数最多人的头像</h1>
+            <div class="start">
+            	<div class="vote"><span>水民</span><p>1号</p></div>
+				<div class="more"><img src="img/1.png"><img src="img/2.png"><img src="img/3.png"><img src="img/4.png"></div>
+            </div>
+			<div class="start">
+            	<div class="vote"><span>水民</span><p>2号</p></div>
+				<div class="more"><img src="img/1.png"><img src="img/2.png"><img src="img/3.png"><img src="img/4.png"></div>
+            </div>
+			<div class="start">
+            	<div class="vote"><span>警察</span><p>3号</p></div>
+				<div class="more"><img src="img/1.png"><img src="img/2.png"><img src="img/3.png"><img src="img/4.png"></div>
+            </div>
+			<div class="start">
+            	<div class="vote"><span>法官</span><p>4号</p></div>
+				<div class="more"><img src="img/1.png"><img src="img/2.png"><img src="img/3.png"><img src="img/4.png"></div>
+            </div>
+		    <div class="start">
+            	<div class="vote"><span>狙击手</span><p>5号</p></div>
+				<div class="more"><img src="img/1.png"><img src="img/2.png"><img src="img/3.png"><img src="img/4.png"></div>
+            </div>
+            <div class="start">
+            	<div class="vote"><span>医生</span><p>6号</p></div>
+				<div class="more"><img src="img/1.png"><img src="img/2.png"><img src="img/3.png"><img src="img/4.png"></div>
+            </div>
+            <div class="start">
+            	<div class="vote"><span>杀手</span><p>7号</p></div>
+				<div class="more"><img src="img/1.png"><img src="img/2.png"><img src="img/3.png"><img src="img/4.png"></div>
+            </div>
+            <div class="start">
+            	<div class="vote"><span>水民</span><p>8号</p></div>
+				<div class="more"><img src="img/1.png"><img src="img/2.png"><img src="img/3.png"><img src="img/4.png"></div>
+            </div>
+            <div class="start">
+            	<div class="vote"><span>水民</span><p>9号</p></div>
+				<div class="more"><img src="img/1.png"><img src="img/2.png"><img src="img/3.png"><img src="img/4.png"></div>
+            </div>
+            <div class="start">
+            	<div class="vote"><span>水民</span><p>10号</p></div>
+				<div class="more"><img src="img/1.png"><img src="img/2.png"><img src="img/3.png"><img src="img/4.png"></div>
+            </div>
+            <div class="start">
+            	<div class="vote"><span>水民</span><p>11号</p></div>
+				<div class="more"><img src="img/1.png"><img src="img/2.png"><img src="img/3.png"><img src="img/4.png"></div>
+            </div>
+            <div class="start">
+            	<div class="vote"><span>水民</span><p>12号</p></div>
+				<div class="more"><img src="img/1.png"><img src="img/2.png"><img src="img/3.png"><img src="img/4.png"></div>
+            </div>
+        </div>
+
+        <div class="pages"><a href="http://amumustyle.github.io/Coatard/task6/task6-2.html"><button>投死</button></a></div>
+
+	</div>
+
+	<script type="text/javascript">
+        // 控制播放器的暂停与播放
+        function play(){
+            var audio=document.getElementById("music");
+            if(audio.paused){
+                audio.play();
+            }
+            else {audio.pause();}
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+    html{
+        font-size:10px;
+        font-family: "楷体";
+    }
+    img{width: 100%;}
+    .wrap{
+        position: relative;
+        width: 100%;
+        max-width: 700px;
+        min-width: 320px;
+        background-color: #29bde0;
+        margin: 0 auto;
+    }
+    .top-bar{  
+        width: 94%;
+        padding: 3%; 
+        font-size: 3.4rem;
+        color: white;
+        text-align: center;
+        border-bottom: 0.1rem solid #b9e9f5;
+    }
+    .main{
+        width: 76%;
+        font-size: 3.3rem;
+        color: black;
+        padding: 4% 12% 5% 12%;
+    }
+    .main img{width: 70%;margin: 2% 16% 2%;}
+    .hint{display: block; color: #fbb435;font-family: "黑体";padding-bottom: 7%;}
+    .main p{
+        color: white;
+        font-size: 2.4rem;
+        padding-bottom: 1%;
+    }
+    .show{margin-bottom: 20%;}
+    #result{
+        width: 76%;
+        border-bottom: 0.1rem solid #a6a6a6;
+        padding: 2% 12% 5%;
+        font-size: 2.6rem;
+        color: #a6a6a6;
+        background-color: white;
+    }
+    .date{font-size: 3rem;color: black;margin-bottom: 4%;}
+    .time{font-size: 1.8rem;color: #a6a6a6;}
+    #result p{padding:0.5% 1%;}
+    .pages,.submit{
+        position: fixed;
+        width: 100%;
+        max-width: 700px;
+        min-width: 320px;
+    }
+    .pages{       
+        bottom: 0;        
+        filter:alpha(opacity:50);/*IE下兼容*/   
+        opacity: 0.5;/*火狐谷歌下兼容*/
+        background-color: #29bde0;
+        padding-top: 13%;
+    }
+    .submit{bottom: 2%;z-index: 10;}
+    .button1,.button2{
+        width: 40%; 
+        padding: 3%;
+        font-size: 4rem;
+        border-radius: 1rem;
+        background-color: #fbb435;
+        color: white;border: none;
+        margin-left: 6%;
+    }
+    .button1{background-color: #f66f6f;margin-right: 1.5%;}
+    @media screen and (max-width:600px){
+        html{font-size:7px;}
+        img{width: 65%;}
+    }
+    @media screen and (max-width:450px) {
+        img{width: 50%;}
+        html{ font-size:5px;}   
+ }

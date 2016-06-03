@@ -1,0 +1,110 @@
+html{
+        font-size:10px;
+        font-family: "楷体";
+    }
+    img{width: 100%;}
+    .wrap{
+        position: relative;
+        width: 100%;
+        max-width: 700px;
+        min-width: 320px;
+        color: #919191;
+        background-color: #29bde0;
+        margin: 0 auto;
+    }
+    .top-bar{  
+        width: 94%;
+        padding: 3%; 
+        font-size: 3.4rem;
+        color: white;
+        text-align: center;
+    }
+
+    .main{
+        font-size: 3rem;
+        color: black;
+        padding: 4% 4% 19% 4%;
+        overflow: hidden;
+    }
+    .main h1{font-size: 2rem;padding: 0 0 3% 5%;color: white;}
+    .player{
+        width: 93%;
+        padding: 1% 1% 1% 6%;
+        font-size: 2.6rem;
+        color: black;
+        background-color: #b9e9f5;
+        overflow: hidden;
+    }
+    .player button{width: 8%;padding: 4.5%;border: none; background: url(../img/player.png) no-repeat;}
+    .player p{padding-top: 2%;}
+    .triangle{
+        position: absolute;
+        top: 13%;
+        left: 8%;
+        border-left: 1.5rem solid transparent;
+        border-right: 1.5rem solid transparent;
+        border-top: 2.5rem solid #b9e9f5;
+        z-index: 10;
+    }
+    .start{ position: relative; width: 22%;float: left;margin: 3% 11% 5% 3%;}
+    .start:nth-of-type(3n){margin-right: 0;}
+    .vote{     
+        border: 0.2rem solid white;
+        text-align: center;  
+        margin-bottom: 15%;    
+    }
+    .vote span{
+        width: 70%;
+        display: block;
+        padding: 23% 15% 23% 15%;
+        background-color: #f5c97b;
+    }
+    .vote p{
+        font-size: 2.3rem;
+        color: white;
+        background-color: #83b09a;
+    }
+    .start:hover .more{display: block;}
+    .more{position: absolute; width: 100%;display: none;}
+    .more img{width: 22.5%;margin-right:3%; }
+    .more img:nth-of-type(4){margin-right: 0;}
+    .pages{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        max-width: 700px;
+        min-width: 320px;
+        /*filter:alpha(opacity:80);/*IE下兼容*/    
+        /*opacity: 0.8;火狐谷歌下兼容*/
+        background-color: #29bde0;
+        text-align: center;
+        padding: 3% 0 3% 0;
+    }
+    .pages button{
+        width: 75%; 
+        padding: 3%;
+        font-size: 4rem;
+        background-color: #fbb435;
+        color: white;border: none;
+    }
+    @media screen and (max-width:600px){
+        html{font-size:7px;}
+        img{width: 65%;}
+        .player button{background-size: 35px 35px;}
+        .triangle{
+            border-left: 14px solid transparent;
+            border-right: 14px solid transparent;
+            border-top: 20px solid #b9e9f5;
+        }
+    
+    }
+    @media screen and (max-width:450px) {
+        img{width: 50%;}
+        html{ font-size:5px;}
+        .player button{background-size: 25px 25px;}  
+        .triangle{
+            border-left: 9px solid transparent;
+            border-right: 9px solid transparent;
+            border-top: 12px solid #b9e9f5;
+        }    
+ }
