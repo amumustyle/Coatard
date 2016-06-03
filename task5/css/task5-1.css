@@ -1,0 +1,100 @@
+html{
+		font-size:10px;
+		font-family: "楷体";
+	}
+	img{width: 100%;}
+	.wrap{
+		position: relative;
+		width: 100%;
+		max-width: 700px;
+    	min-width: 320px;
+    	color: white;
+    	margin: 0 auto;
+    }
+    .top-bar{	
+    	width: 100%;
+    	padding: 1.5% 0; 
+    	background-color: #5fc0cd;
+    	font-size: 3.6rem;
+    }
+    .top-bar a{
+    	position: absolute;
+    	left: 3%;
+    }
+    .top-bar p{text-align: center;}
+    .user{
+    	width: 100%;
+    	padding: 22% 0;
+    	background-image: url(../img/bg.png);
+    	background-size: cover;
+    	font-size: 3.6rem;
+    }
+    .user-img{
+    	position: absolute;
+    	width: 24%;
+    	top: 33%;
+    	left: 5%;
+    	border-radius: 50%;
+    }
+    .user-name{
+    	position: absolute;
+    	top: 45%;
+    	left: 35%;
+    	
+    }
+    .user-name p{
+    	font-size: 2.4rem;
+    	padding: 3% 0 0 15%;
+    	background: url(../img/place.png) no-repeat 0.3rem 0.7rem/1.6rem 1.8rem;
+    }
+    .introduce{
+    	position: absolute;
+    	width: 100%;
+    	font-size: 3.2rem;
+    	color: black;
+    } 
+    .header-in{padding: 3%;}
+    .strip{
+    	border-left: 0.2rem solid #5fc0cd;
+    	margin:3%;
+    }
+    ul{
+    	position: relative;
+    	padding: 2% 0 2% 5%;
+	    border-top:1px solid #e1e5e7;
+	    border-bottom:1px solid #e1e5e7; 
+    }
+    li{border-bottom:1px solid #e1e5e7;padding: 2% 5%;}
+    li:nth-last-of-type(1){border: none;padding: 6%;}
+    .star{
+    	background: url(../img/star.png) no-repeat;
+    	padding: 0 3% 0 6%;
+    }
+    .strip1{
+    	border-left: 0.2rem solid #e1e5e7;
+    	padding: 0 3%;
+    }
+    .detail{color: #999999;padding-right: 3%;}
+    .detail1{color: red;}
+    .detail2{
+    	position: absolute;
+    	bottom: 4%;
+    	font-size:2.5rem;width: 55%; }
+    .foot{
+    	width: 90%;
+    	padding: 12% 5% 7% 5%;
+    	overflow: hidden;
+    	margin: 0 auto;
+    }
+    .button1,.button2{border: 0.1rem solid #5fc0cd;border-radius: 0.5rem;font-size: 3.4rem;width: 48%;padding: 3%;}
+    .button1{background-color: white;color: #5fc0cd;}
+    .button2{background-color: #5fc0cd;color: white;}
+
+    @media screen and (max-width:500px){
+	    html{font-size:5px;}
+	    img{width: 53%;}
+	    .user-img{width: 50%;top:28%;}
+	    .user-name{top: 38%;}
+	    .user-name p{background-size: 14px 14px;background-position: 1px 3px;}
+	    .star{background-size: 14px 14px;}
+    }

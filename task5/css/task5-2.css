@@ -1,0 +1,102 @@
+html{
+        font-size:10px;
+        font-family: "楷体";
+    }
+    img{width: 100%;}
+    .wrap{
+        position: relative;
+        width: 100%;
+        max-width: 700px;
+        min-width: 320px;
+        color: white;
+        margin: 0 auto;
+    }
+    .top-bar{   
+        position: absolute;
+        width: 100%;
+        padding: 6% 0; 
+        background-color: #5fc0cd;
+    }
+    .button1,.button2{
+        position: absolute;
+        top: 12%;
+        width: 20%;
+        border-radius: 0.5rem;
+        border: none;
+        background-color: #55a8b3;
+        padding: 1%;
+        font-size: 3.4rem;
+        color: white;
+        z-index: 3;
+    }
+    .button1{left: 28%;}
+    .button2{left: 47%;}
+    .active{background-color: white;color: #5fc0cd;}
+    .button1:hover,.button2:hover{z-index: 5;background-color: white;color: #5fc0cd;}
+    .top-bar a{
+        width: 5%;
+        position: absolute;
+        top:20%;
+        right: 4%;
+    }
+    .nav{
+        position: absolute;
+        padding: 14% 0 2% 0;
+        width: 100%;
+        color: #afbac0;
+        font-size: 2.8rem;
+        border-bottom: 0.1rem solid #e1e5e7;
+    }
+    .nav-bar{
+        width: 31%;
+        text-align: center;
+        border-right: 0.1rem solid #e1e5e7;
+        padding-right: 1rem;
+    }
+    .nav-bar:nth-last-of-type(1){ border-right: none;}
+    .nav-bar img{width: 8%;padding-top: 4%;}
+    .showall{
+        width: 100%;
+        position: absolute;
+        padding-top:20%; 
+        padding-bottom: 30%;
+        color: #afbac0;
+        font-size: 2.8rem;
+    }
+    .show{
+        width: 96%;
+        padding: 3% 0 3% 3%;
+        border-bottom: 0.1rem solid #e1e5e7;
+    }
+    .show img{width: 3.5%;}
+    .show p{width: 90%; color: black;padding:1.5% 0 1.5% 6%;}
+    .money{font-size: 3rem;color: red;}
+    .money img{width: 8%;padding-left: 1rem;}
+    .home{
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        background:#f8fafb;
+        font-size: 2rem;
+        max-width: 700px;
+        min-width:320px;
+    }
+    .index1,.index3{
+        display: inline-block;
+        width: 8%;
+        margin: 2% 15% 0 15%;
+        text-align: center;
+        color: #5fc0cd;
+    }
+    .index2{width: 15%;display: inline-block;}
+    .index3{color: #999999;}
+    @media screen and (max-width:600px){
+        html{font-size:7px;}
+        img{width: 83%;}    
+        .nav-bar{width: 30%;}
+    }
+    @media screen and (max-width:450px) {
+        html{ font-size:5px;}
+        img{width: 83%;}    
+        .nav-bar{width: 29%;}
+ }
