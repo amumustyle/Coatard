@@ -54,11 +54,12 @@ html{
         margin-bottom: 15%;    
     }
     .vote span{
-        width: 70%;
+        width: 76%;
         display: block;
-        padding: 23% 15% 23% 15%;
+        padding: 23% 12% 23% 12%;
         background-color: #f5c97b;
     }
+
     .vote p{
         font-size: 2.3rem;
         color: white;
@@ -106,5 +107,5 @@ html{
             border-left: 9px solid transparent;
             border-right: 9px solid transparent;
             border-top: 12px solid #b9e9f5;
-        }    
+        }          
  }
