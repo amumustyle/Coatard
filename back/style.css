@@ -7,10 +7,10 @@
 	margin-left: 610px;
 	bottom: 30px;
 	display: none;
-	background:url(http://img.mukewang.com/535e0dc100010e9c00400080.jpg) 
+	background:url(top.jpg) 
 	no-repeat left top;
 }
 #btn:hover {
-    background:url(http://img.mukewang.com/535e0dc100010e9c00400080.jpg) 
+    background:url(top.jpg) 
     no-repeat 0 -40px;
     }
